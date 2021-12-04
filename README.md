@@ -1,6 +1,6 @@
 
 ## Overview
-This repository provides an official implementation for our paper CVPR 2021 "Multi-view 3D Reconstruction of a Texture-less Smooth Surface of Unknown Generic Reflectance" - a multiview photometric pipeline for reconstructing glossy objects from a few calibrated multi-view images.
+This repository provides an official implementation[^1] for our paper CVPR 2021 "Multi-view 3D Reconstruction of a Texture-less Smooth Surface of Unknown Generic Reflectance" - a multiview photometric pipeline for reconstructing glossy objects from a few calibrated multi-view images.
 
 We assume the objects to be reconstructed are made from uniform material, and are illuminated by a single point light source that is closely attached to a moving camera (e.g. smartphones with a built-in flash light). The input to our system is a set of images captured by the camera, and the output is an oriented point cloud (3D + normal directions) that corresponds to the surface of the object, as well as its BRDF estimation.
 
@@ -77,3 +77,6 @@ Intermediate results will be saved to `results/` folder as each iteration comple
 
 ## License
 The software is free for academic purposes. For commercial use please [Email us](mailto:ziang.cheng@anu.edu.au,hongdong.li@anu.edu.au).
+
+
+[^1]: Thanks to a covid lockdown here in Canberra I havn't beed able to access my office in university. As a result some script in repo is rewritten from a much orlder version and others from scratch. With that said, the results should be consistent with what's been presented in paper.
