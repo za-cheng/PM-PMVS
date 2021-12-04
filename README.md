@@ -21,24 +21,25 @@ Please consider citing our paper if you find this implementation useful.
 ## Dependencies and requirement
  This implementation requqires an NVIDIA GPU for parallel computing. You will need about 2.3GB free VRAM for running the demo (memory requirement linearly increases with number of images and resolution). A conda virtual environment is recommended for managing packages. Starting with a fresh conda venv with Python3, install following packages:
 - opencv-python
-    '''shell
-    pip install opencv-python --user
-    '''
+
+
+       pip install opencv-python --user
+
 - pytorch with CUDA support (tested w/ v1.7.0)
-    '''shell
-    conda install pytorch torchvision torchaudio cudatoolkit -c pytorch
-    '''
+
+      conda install pytorch torchvision torchaudio cudatoolkit -c pytorch
+
 
 - trimesh with pyembree support
-   '''shell
-   conda install -c conda-forge pyembree
-   pip install trimesh --user
-   '''
+
+      conda install -c conda-forge pyembree
+      pip install trimesh --user
+
 
 - matplotlib, scipy, tqdm, h5py, sklearn
-    '''shell 
-    pip install numpy scipy matplotlib tqdm h5py scikit-learn --user
-    '''
+
+      pip install numpy scipy matplotlib tqdm h5py scikit-learn --user
+
 
 ## Clone this repository
 
